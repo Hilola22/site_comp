@@ -1,12 +1,14 @@
-import React from 'react'
-import Header from '../../components/header/Header'
+import React from "react";
+import Users from "../users";
+import Products from "../products";
 
 const Home = () => {
   return (
-      <>
-        <Header/>
-      </>
-  )
-}
+    <>
+      <Users />
+      <Products />
+    </>
+  );
+};
 
-export default React.memo(Home)
+export default React.memo(Home);
